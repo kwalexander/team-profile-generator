@@ -1,0 +1,1 @@
+// functions to create the page content by type
