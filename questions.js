@@ -73,22 +73,54 @@ const newEngineer = () => {
         {
             type: "input",
             name: "engineerName",
-            message: "What is the engineer's name?"
+            message: "What is the engineer's name?",
+            validate: engineerNameInput => {
+                if (engineerNameInput) {
+                    return true;
+                } else {
+                    console.log('Name is required');
+                    return false;
+                }
+            }
         },
         {
             type: "input",
             name: "employeeID",
-            message: "What is the engineer's employee ID?"
+            message: "What is the engineer's employee ID?",
+            validate: employeeIdInput => {
+                if (employeeIdInput) {
+                    return true;
+                } else {
+                    console.log('Employee ID is required');
+                    return false;
+                }
+            }
         },
         {
             type: "input",
             name: "engineerEmail",
-            message: "What is the engineer's email address?"
+            message: "What is the engineer's email address?",
+            validate: engineerEmailInput => {
+                if (engineerEmailInput) {
+                    return true;
+                } else {
+                    console.log('Email address is required');
+                    return false;
+                }
+            }
         },
         {
             type: "input",
             name: "engineerGitHubUserName",
-            message: "What is the engineer's GitHub user name?"
+            message: "What is the engineer's GitHub user name?",
+            validate: engineerGitHubUserNameInput => {
+                if (engineerGitHubUserNameInput) {
+                    return true;
+                } else {
+                    console.log('GitHub user name is required');
+                    return false;
+                }
+            }
         },
         {
             type: 'list',
@@ -105,22 +137,54 @@ const newIntern = () => {
         {
             type: "input",
             name: "internName",
-            message: "What is the intern's name?"
+            message: "What is the intern's name?",
+            validate: internNameInput => {
+                if (internNameInput) {
+                    return true;
+                } else {
+                    console.log('Name is required');
+                    return false;
+                }
+            }
         },
         {
             type: "input",
             name: "employeeID",
-            message: "What is the interns's employee ID?"
+            message: "What is the interns's employee ID?",
+            validate: employeeIdInput => {
+                if (employeeIdInput) {
+                    return true;
+                } else {
+                    console.log('Employee ID is required');
+                    return false;
+                }
+            }
         },
         {
             type: "input",
             name: "internGitHubUserName",
-            message: "What is the intern's GitHub user name?"
+            message: "What is the intern's GitHub user name?",
+            validate: internGitHubUserNameInput => {
+                if (internGitHubUserNameInput) {
+                    return true;
+                } else {
+                    console.log('GitHub user name is required');
+                    return false;
+                }
+            }
         },
         {
             type: "input",
             name: "internSchool",
-            message: "What is the intern's school?"
+            message: "What is the intern's school?",
+            validate: internSchoolInput => {
+                if (internSchoolInput) {
+                    return true;
+                } else {
+                    console.log('School is required');
+                    return false;
+                }
+            }
         },
         {
             type: 'list',
