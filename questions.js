@@ -85,7 +85,7 @@ const newEngineer = () => {
         },
         {
             type: "input",
-            name: "employeeID",
+            name: "employeeId",
             message: "What is the engineer's employee ID?",
             validate: employeeIdInput => {
                 if (employeeIdInput) {
@@ -149,7 +149,7 @@ const newIntern = () => {
         },
         {
             type: "input",
-            name: "employeeID",
+            name: "employeeId",
             message: "What is the interns's employee ID?",
             validate: employeeIdInput => {
                 if (employeeIdInput) {
