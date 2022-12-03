@@ -1,1 +1,17 @@
 /* style sheet for rendered output */
+* {
+    width: 95%;
+    margin: auto;
+}
+
+.employee {
+    box-shadow: 5px 5px 5px grey;
+}
+
+.card-header {
+    padding: 25px 25px 25px 25px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 0px;
+    margin-right: 0px;
+}
